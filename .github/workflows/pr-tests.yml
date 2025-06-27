@@ -1,0 +1,13 @@
+name: Pull Request Tests
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    branches: [ "main" ]
+jobs:
+  test:
+    name: Run Unit Tests
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Install pnpm
+        uses: pnpm/action-setup@v3
+    
