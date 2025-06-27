@@ -6,8 +6,8 @@ on:
 jobs:
   test:
     name: Run Unit Tests
-    runs-on: ubuntu-20.04
+    runs-on: large-build-runner
     steps:
       - name: Install pnpm
         uses: pnpm/action-setup@v3
-    
+
