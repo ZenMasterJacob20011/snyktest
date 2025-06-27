@@ -12,6 +12,6 @@
   "packageManager": "pnpm@10.11.0",
   "dependencies": {
     "@steggy/formio": "0.10.30",
-    "@steggy/server": "0.10.30"
+    "@steggy/server": "22.44.9"
   }
 }
